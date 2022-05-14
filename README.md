@@ -35,6 +35,9 @@ Lista de comandos Git passados durante as aulas do programa Devstart.
 **git log**
 >Mostra informações sobre commits feitos, onde foram feitos, quem fez, quando fez, e o nome do commit.
 
+**git log --oneline**
+>Abre a log de commits feitos, com informações em uma linha.
+
 **git branch**
 >Lista as branchs locais criadas e mostra com * qual está selecionada.
 
@@ -82,3 +85,9 @@ Lista de comandos Git passados durante as aulas do programa Devstart.
 
 **git pull**
 >Baixa o repositório remoto para máquina local.
+
+**git revert código_hash_do_commit**
+>Reverte para o commit selecionado através da hash que é apresentada no comando git log.
+
+**git revert --abort**
+>Aborta o reverte que estava sendo feito.
